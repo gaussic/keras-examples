@@ -1,5 +1,3 @@
-
-#%%
 '''
 An implementation of sequence to sequence learning for performing addition
 使用Sequence To Sequence Learning 来做加法的一个实现

@@ -1,0 +1,79 @@
+60000 train samples
+10000 test samples
+
+____________________________________________________________________________________________________
+Layer (type)                     Output Shape          Param #     Connected to
+====================================================================================================
+dense_1 (Dense)                  (None, 512)           401920      dense_input_1[0][0]
+____________________________________________________________________________________________________
+activation_1 (Activation)        (None, 512)           0           dense_1[0][0]
+____________________________________________________________________________________________________
+dropout_1 (Dropout)              (None, 512)           0           activation_1[0][0]
+____________________________________________________________________________________________________
+dense_2 (Dense)                  (None, 512)           262656      dropout_1[0][0]
+____________________________________________________________________________________________________
+activation_2 (Activation)        (None, 512)           0           dense_2[0][0]
+____________________________________________________________________________________________________
+dropout_2 (Dropout)              (None, 512)           0           activation_2[0][0]
+____________________________________________________________________________________________________
+dense_3 (Dense)                  (None, 10)            5130        dropout_2[0][0]
+____________________________________________________________________________________________________
+activation_3 (Activation)        (None, 10)            0           dense_3[0][0]
+====================================================================================================
+Total params: 669,706
+Trainable params: 669,706
+Non-trainable params: 0
+____________________________________________________________________________________________________
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/20
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:885] Found device 0 with properties:
+name: GeForce GTX 970
+major: 5 minor: 2 memoryClockRate (GHz) 1.253
+pciBusID 0000:01:00.0
+Total memory: 4.00GiB
+Free memory: 3.31GiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:906] DMA: 0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:916] 0:   Y
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 970, pci bus id: 0000:0
+1:00.0)
+60000/60000 [==============================] - 3s - loss: 0.2486 - acc: 0.9222 - val_loss: 0.1151 - val_acc: 0.9651
+Epoch 2/20
+60000/60000 [==============================] - 2s - loss: 0.1028 - acc: 0.9690 - val_loss: 0.0795 - val_acc: 0.9754
+Epoch 3/20
+60000/60000 [==============================] - 2s - loss: 0.0755 - acc: 0.9770 - val_loss: 0.0843 - val_acc: 0.9745
+Epoch 4/20
+60000/60000 [==============================] - 2s - loss: 0.0602 - acc: 0.9821 - val_loss: 0.0829 - val_acc: 0.9759
+Epoch 5/20
+60000/60000 [==============================] - 2s - loss: 0.0491 - acc: 0.9850 - val_loss: 0.0840 - val_acc: 0.9781
+Epoch 6/20
+60000/60000 [==============================] - 2s - loss: 0.0424 - acc: 0.9871 - val_loss: 0.0886 - val_acc: 0.9785
+Epoch 7/20
+60000/60000 [==============================] - 2s - loss: 0.0382 - acc: 0.9884 - val_loss: 0.0774 - val_acc: 0.9795
+Epoch 8/20
+60000/60000 [==============================] - 2s - loss: 0.0336 - acc: 0.9899 - val_loss: 0.0776 - val_acc: 0.9826
+Epoch 9/20
+60000/60000 [==============================] - 2s - loss: 0.0308 - acc: 0.9905 - val_loss: 0.0953 - val_acc: 0.9806
+Epoch 10/20
+60000/60000 [==============================] - 2s - loss: 0.0281 - acc: 0.9920 - val_loss: 0.0952 - val_acc: 0.9819
+Epoch 11/20
+60000/60000 [==============================] - 2s - loss: 0.0269 - acc: 0.9923 - val_loss: 0.0940 - val_acc: 0.9816
+Epoch 12/20
+60000/60000 [==============================] - 2s - loss: 0.0258 - acc: 0.9925 - val_loss: 0.0985 - val_acc: 0.9809
+Epoch 13/20
+60000/60000 [==============================] - 2s - loss: 0.0254 - acc: 0.9933 - val_loss: 0.0996 - val_acc: 0.9833
+Epoch 14/20
+60000/60000 [==============================] - 2s - loss: 0.0207 - acc: 0.9941 - val_loss: 0.0996 - val_acc: 0.9828
+Epoch 15/20
+60000/60000 [==============================] - 2s - loss: 0.0219 - acc: 0.9940 - val_loss: 0.1125 - val_acc: 0.9813
+Epoch 16/20
+60000/60000 [==============================] - 2s - loss: 0.0205 - acc: 0.9946 - val_loss: 0.1051 - val_acc: 0.9821
+Epoch 17/20
+60000/60000 [==============================] - 2s - loss: 0.0205 - acc: 0.9946 - val_loss: 0.1167 - val_acc: 0.9811
+Epoch 18/20
+60000/60000 [==============================] - 2s - loss: 0.0172 - acc: 0.9956 - val_loss: 0.1322 - val_acc: 0.9796
+Epoch 19/20
+60000/60000 [==============================] - 2s - loss: 0.0181 - acc: 0.9955 - val_loss: 0.1176 - val_acc: 0.9828
+Epoch 20/20
+60000/60000 [==============================] - 2s - loss: 0.0192 - acc: 0.9950 - val_loss: 0.1073 - val_acc: 0.9845
+Test score: 0.107278760454
+Test accuracy: 0.9845
