@@ -3,7 +3,7 @@ Gets to 0.89 test accuracy after 2 epochs.
 90s/epoch on Intel i5 2.4Ghz CPU.
 10s/epoch on Tesla K40 GPU.
 
-这个例子演示了使用 Convolution1D 进行文本分类（这是一个二元分类，结果只有0和1）。
+这个例子演示了使用 Convolution1D 进行文本情感分类（这是一个二元分类，结果只有0和1）。
 在 2 轮迭代后，得到了 0.89 的测试准确率。
 在 Intel i5 2.4Ghz CPU 上的速度是 90s/epoch。
 在 Tesla K40 GPU 上的速度是 10s/epoch。
