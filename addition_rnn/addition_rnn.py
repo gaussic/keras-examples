@@ -250,7 +250,7 @@ for iteration in range(1, 200):
     for i in range(10):
         ind = np.random.randint(0, len(X_val))
         rowX, rowy = X_val[np.array([ind])], y_val[np.array([ind])]
-        preds = model.predict_classes(rowX, verbose=0)
+        preds = model.predict_classes(rowX, verbose=0)  # 输出预测分类（序列）
         q = ctable.decode(rowX[0])
         correct = ctable.decode(rowy[0])
         guess = ctable.decode(preds[0], calc_argmax=False)
