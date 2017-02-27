@@ -26,7 +26,8 @@ import random
 import sys
 
 # 读取尼采作品的文本数据
-path = get_file('nietzsche.txt', origin="https://s3.amazonaws.com/text-datasets/nietzsche.txt")
+path = get_file('nietzsche.txt',
+                origin="https://s3.amazonaws.com/text-datasets/nietzsche.txt")
 text = open(path).read().lower()
 print('corpus length:', len(text))
 
@@ -70,7 +71,7 @@ model = Sequential()
 # 输入为一个序列，输出为 128维的向量，即 LSTM 的最终状态
 model.add(LSTM(128, input_shape=(maxlen, len(chars))))
 model.add(Dense(len(chars)))      # 全连接层，长度为词汇表大小
-model.add(Activation('softmax'))  # softmax激活层，检查下一个最有可能的字符 
+model.add(Activation('softmax'))  # softmax激活层，检查下一个最有可能的字符
 
 optimizer = RMSprop(lr=0.01)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer)
@@ -92,7 +93,7 @@ def sample(preds, temperature=1.0):
 
 # train the model, output generated text after each iteration
 # 训练模型，在每一次迭代后输出生成的文本
-for iteration in range(1, 60): # 59轮迭代
+for iteration in range(1, 60):  # 59轮迭代
     print()
     print('-' * 50)
     print('Iteration', iteration)
