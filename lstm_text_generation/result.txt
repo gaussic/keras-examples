@@ -1,0 +1,256 @@
+corpus length: 600893
+total chars: 58
+nb sequences: 200285
+Vectorization...
+Build model...
+
+____________________________________________________________________________________________________
+Layer (type)                     Output Shape          Param #     Connected to
+====================================================================================================
+lstm_1 (LSTM)                    (None, 128)           95744       lstm_input_1[0][0]
+____________________________________________________________________________________________________
+dense_1 (Dense)                  (None, 58)            7482        lstm_1[0][0]
+____________________________________________________________________________________________________
+activation_1 (Activation)        (None, 58)            0           dense_1[0][0]
+====================================================================================================
+Total params: 103,226
+Trainable params: 103,226
+Non-trainable params: 0
+____________________________________________________________________________________________________
+
+
+# 截取后部分
+--------------------------------------------------
+
+Iteration 55
+Epoch 1/1
+200285/200285 [==============================] - 85s - loss: 1.3574
+
+----- diversity: 0.2
+----- Generating with seed: "ng,
+with its frightfulness, the other id"
+ng,
+with its frightfulness, the other ideal of the strange of the sense of the strange the standing to the problem of the specticies of the specticies of the superficiation of the spectations of the stronger the sta
+ndard the standard the sense of the other and stand and the conception of the spiritual interpreted and stronger who in the consciousness of the self--and to say a strice of the most respect of the strange, and
+self--and the
+
+----- diversity: 0.5
+----- Generating with seed: "ng,
+with its frightfulness, the other id"
+ng,
+with its frightfulness, the other idea of which ever in the very superficiation of the belief in the type were the spiritual and partical stand and perhaps of the conscious of a man and often and percepted other
+s and of the belief in the suspicional to life, when the self-constrain itself because and for which seeming of manner and does not only for its leveily in conception of the advances of standard oneroobfore, whi
+ch in the stan
+
+----- diversity: 1.0
+----- Generating with seed: "ng,
+with its frightfulness, the other id"
+ng,
+with its frightfulness, the other ideas"; at begin other into the systest,
+naiest of a stand, which it will command. what innocent stry imprimitness of the standard, and go the logic
+of arthe        sin--althists of forbearness, indeed to themselves, to a
+way it is another would so lit anythes.=--sind really, one wartinessry, terpine afterwabder to which the ciders to prolate their arguly
+it is
+emptor mind, whatever
+bed tiumonigine.
+
+----- diversity: 1.2
+----- Generating with seed: "ng,
+with its frightfulness, the other id"
+ng,
+with its frightfulness, the other ideal of racus of wholomidimitating, the its "former extraout
+the other ro t moral unitiespredie by pous to as every begind free, to should not knowledge
+seer uncorreaps,
+them throughth who deer judgively?".aperate.
+out.-war napoment
+of all meralial danger was impus
+moyerish
+of mankind; if any
+restkness, heroals
+have self-and become redsonable refiect in essential enemsed and bring
+supuaration of ra
+--------------------------------------------------
+Iteration 56
+Epoch 1/1
+200285/200285 [==============================] - 88s - loss: 1.3307
+
+----- diversity: 0.2
+----- Generating with seed: "feast themselves on the sentiments of ha"
+feast themselves on the sentiments of happiness of the subjections of the subjection of the strength, as a person to the extent of the same of the subjection of the conception of the subjection of the senses and
+ strength, and in the subjection of humanity and any senses and senses and strength, and are and secrety and strength, and and in the desire the strength, the concealed and any sense of the thing in the morality
+ of the same both
+
+----- diversity: 0.5
+----- Generating with seed: "feast themselves on the sentiments of ha"
+feast themselves on the sentiments of habitual excepting and simplicity of the problem? a subjection is always family in the truth
+themselves, which are more and states of the order with which is the be more constructed man in this morality and more and their will to in the same as it like
+the previess and sensualistic the sense, and
+as a supremacy course of the influence of the saintement, and and an and arb(and the chances, and in the
+
+----- diversity: 1.0
+----- Generating with seed: "feast themselves on the sentiments of ha"
+feast themselves on the sentiments of hand and forcess makes him
+as there
+is not always? which
+wish to deticipless
+which
+says involves maintelre to weaver events of these one's hold "rules and injury what has self-ensisted of servation of
+the intellications, rynmsude,
+above theubbitgque. arbmteatument and
+rejoscence of conscience and most sunding from hardly anibline that practicahing, seductity." with
+refreshouss them they
+are comledit
+
+----- diversity: 1.2
+----- Generating with seed: "feast themselves on the sentiments of ha"
+feast themselves on the sentiments of has to tricism, the. thereid, however; risoulf to is
+alwaws so my o)joy
+counder-sense: as
+stand that, spirit always, bunand becausidement
+in tnres revers kind of thinked it would atwavericy impures domant arfogce--as time things--a pentating chriety bear, owe and sesticients", for msy this precisility id of life
+this seams. "with anyhorday, in partling: shieh. at lempred that heseed
+(demand always
+"
+
+--------------------------------------------------
+Iteration 57
+Epoch 1/1
+200285/200285 [==============================] - 85s - loss: 1.3181
+
+----- diversity: 0.2
+----- Generating with seed: "ereby,
+and thus renounce one of the olde"
+ereby,
+and thus renounce one of the older must be always be the contemption of the starting the stare the proper of the proper of the proper of the stary and faill to the start of the sense of the stare and althought o
+f the stary and most starting of the stare and strong to the start to the stare and althought and stronger of the standards the spiritual standards the stronger and althoused of the struggle of the starting in t
+he start to
+
+----- diversity: 0.5
+----- Generating with seed: "ereby,
+and thus renounce one of the olde"
+ereby,
+and thus renounce one of the older and importuny to be a stare the most stary struce the distances and his properly and formerly on the weaker of the stances, the
+most far as a differently his actions there is not there at present as much and has a respect of the contrary in the contemption of all
+the faith, that there are the same spiritual ordinary become the
+desires to the
+life a descance it is his painted to the opposite and
+
+----- diversity: 1.0
+----- Generating with seed: "ereby,
+and thus renounce one of the olde"
+ereby,
+and thus renounce one of the older "to scienceive. the how probablis who again stood?hally not be injury, definitely, still should the most faill there we our number little the preservation of a difficult due
+in the eroge is a dructs and type behonty not
+and humanity, he was not be sure
+in a bad compths our kees anm founder. the proebles original enmy, for the most among as the lacking that christianitiest. the bad"--is the alter
+
+----- diversity: 1.2
+----- Generating with seed: "ereby,
+and thus renounce one of the olde"
+ereby,
+and thus renounce one of the older meanon only
+love, he waither,
+as this
+circuhy formament, by the feelings, doe thing faillitation, for the gainimate fooll to
+be scientifie their counting", truh to watting, of us
+the case of itj(wlals,, with the philosophs! even unutited.
+
+p=l' well, if all reas ever concemence natidily andry way to one among, every rups?", and here!-still, doe
+itself to                on,
+cypents,
+like them amo
+
+--------------------------------------------------
+Iteration 58
+Epoch 1/1
+200285/200285 [==============================] - 86s - loss: 1.3171
+
+----- diversity: 0.2
+----- Generating with seed: "ust
+endeavouring to be otherwise than th"
+ust
+endeavouring to be otherwise than the superior and the strength and such as the strength, and and end the hand the processed the start strength of the moral and the strength in the superiority and such as the su
+periority in the presented that it is the superiority in the superiority in the superior and distrustion of the superiority in the superiority and the strength of the superiority and superior in the superior and
+ the and such
+
+----- diversity: 0.5
+----- Generating with seed: "ust
+endeavouring to be otherwise than th"
+ust
+endeavouring to be otherwise than thereby is more and hand to the will of his interces to not be and ends in the man is the type to the suspicion of best in the dirings that the morality, in the result of belief
+ in the painful when he who would not knowledge in more in the certaie mind, and the delightful in the light and actions of the something morality, and will as the will as the conscience and the whole called cal
+led and fear a
+
+----- diversity: 1.0
+----- Generating with seed: "ust
+endeavouring to be otherwise than th"
+ust
+endeavouring to be otherwise than the greatest, on the philosophersigies, and humanity of her struggle contempthlea": animaling only morality
+whisher: or the remained religious morals with anything depended menualire of solitess or everything disposed his worst expessible, doet nature.
+
+193. henceful vely the solitary and pain briness and
+god which into esided defectuve dark of diefly conception,
+matter suspect that origin, attent i
+
+----- diversity: 1.2
+----- Generating with seed: "ust
+endeavouring to be otherwise than th"
+ust
+endeavouring to be otherwise than thereby aolaonp, "fatherlogage the drfebably scienuocwaps"--but the
+district--molity.
+
+
+86
+
+=stricn itself
+from rearter?
+"eart" and脝wflloldlectional,"
+says.
+
+
+
+
+=called anged servous influence know
+psylow. in in view on ptrinw with
+it is discernies
+allued, in: or its errors you
+wishedres avoising, to just axcountage and actions for
+she to more, radable demosd, it has heighter it evolution as this mi
+
+--------------------------------------------------
+Iteration 59
+Epoch 1/1
+200285/200285 [==============================] - 86s - loss: 1.3218
+
+----- diversity: 0.2
+----- Generating with seed: "s rage but that some time a gentle demon"
+s rage but that some time a gentle demonstrate of the sense of the probably about the contemporary in everything the conditional the same of the south in the little the more and self and self-contempt of the cau
+se of the opport of the same consistrated to the southern and more and particism and more and morality of the extent of the strange, which is the contemption of the southern in the southern and also a sense and
+say to the probabl
+
+----- diversity: 0.5
+----- Generating with seed: "s rage but that some time a gentle demon"
+s rage but that some time a gentle demon one perhaps and honourest in the probably as himself in the deception of his happiness, a work of human secret timest to she is soul and finally and difficultement and in
+dividual more contempting of the most and extrrounce, but the comprehensian of the truths of the contempt of the best and constitute contemption of the subject, and love with the same of the case for the moralit
+y itself amous cer
+
+----- diversity: 1.0
+----- Generating with seed: "s rage but that some time a gentle demon"
+s rage but that some time a gentle demonstrated south to some fider man
+believe; things responsible self side notial some stupiplications,--that how with schlluity,
+pleasure. even what with hirse
+out of sols (to first belandevation of comes, become young would new leneously.
+
+223. ider their struggle and moral more amulness
+great; possibly recomious in fighth impaisishistiation of all a tability: "prohige indifferently
+oppothing that
+it
+
+----- diversity: 1.2
+----- Generating with seed: "s rage but that some time a gentle demon"
+s rage but that some time a gentle demoners.=--a liittation
+of contemporarily artnuru to do a brance (for more
+deportment or inward testo--and much, even unsisse: others, seffers irons: in leartsteve attains, sughne,
+erofed all ho wertrumination self exenction: their mude his dunner, so from delice our oces shas not so of disartnadering about it; centuries. that such caperause. i studesity.
+menaringing, necessity are
+nethiciation--a see

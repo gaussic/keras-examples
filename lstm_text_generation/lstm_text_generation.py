@@ -73,6 +73,8 @@ model.add(LSTM(128, input_shape=(maxlen, len(chars))))
 model.add(Dense(len(chars)))      # 全连接层，长度为词汇表大小
 model.add(Activation('softmax'))  # softmax激活层，检查下一个最有可能的字符
 
+model.summary()   
+
 optimizer = RMSprop(lr=0.01)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer)
 
