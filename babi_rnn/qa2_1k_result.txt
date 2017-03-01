@@ -1,0 +1,70 @@
+RNN / Embed / Sent / Query = <class 'keras.layers.recurrent.LSTM'>, 50, 100, 100
+D:\Anaconda3\envs\keras\lib\re.py:203: FutureWarning: split() requires a non-empty pattern match.
+  return _compile(pattern, flags).split(string, maxsplit)
+vocab = ['.', '?', 'Daniel', 'John', 'Mary', 'Sandra', 'Where', 'apple', 'back', 'bathroom', 'bedroom', 'discarded', 'down', 'dropped', 'football', 'garden', 'got', 'grabbed', 'hallway', 'is', 'journeyed', 'kitc
+hen', 'left', 'milk', 'moved', 'office', 'picked', 'put', 'the', 'there', 'to', 'took', 'travelled', 'up', 'went']
+X.shape = (1000, 552)
+Xq.shape = (1000, 5)
+Y.shape = (1000, 36)
+story_maxlen, query_maxlen = 552, 5
+Build model...
+Training
+Train on 950 samples, validate on 50 samples
+Epoch 1/40
+950/950 [==============================] - 29s - loss: 2.9639 - acc: 0.1221 - val_loss: 2.2757 - val_acc: 0.3000
+Epoch 2/40
+950/950 [==============================] - 26s - loss: 2.1117 - acc: 0.1842 - val_loss: 1.8776 - val_acc: 0.0600
+Epoch 3/40
+950/950 [==============================] - 23s - loss: 1.9771 - acc: 0.1726 - val_loss: 1.8295 - val_acc: 0.0600
+Epoch 4/40
+950/950 [==============================] - 24s - loss: 1.8988 - acc: 0.1768 - val_loss: 1.8531 - val_acc: 0.0600
+Epoch 5/40
+950/950 [==============================] - 23s - loss: 1.8936 - acc: 0.1916 - val_loss: 1.8170 - val_acc: 0.0600
+Epoch 6/40
+950/950 [==============================] - 24s - loss: 1.9113 - acc: 0.1695 - val_loss: 1.8491 - val_acc: 0.0600
+Epoch 7/40
+950/950 [==============================] - 24s - loss: 1.8664 - acc: 0.2095 - val_loss: 1.8247 - val_acc: 0.1000
+Epoch 8/40
+950/950 [==============================] - 25s - loss: 1.8604 - acc: 0.1842 - val_loss: 1.8342 - val_acc: 0.0600
+950/950 [==============================] - 23s - loss: 1.7620 - acc: 0.2568 - val_loss: 1.7340 - val_acc: 0.2600
+Epoch 21/40
+950/950 [==============================] - 23s - loss: 1.7512 - acc: 0.2737 - val_loss: 1.7131 - val_acc: 0.3600
+Epoch 22/40
+950/950 [==============================] - 23s - loss: 1.7378 - acc: 0.2811 - val_loss: 1.7055 - val_acc: 0.3400
+Epoch 23/40
+950/950 [==============================] - 24s - loss: 1.7408 - acc: 0.2674 - val_loss: 1.7924 - val_acc: 0.2000
+Epoch 24/40
+950/950 [==============================] - 23s - loss: 1.7453 - acc: 0.2632 - val_loss: 1.7163 - val_acc: 0.3400
+Epoch 25/40
+950/950 [==============================] - 23s - loss: 1.7314 - acc: 0.2842 - val_loss: 1.6927 - val_acc: 0.3600
+Epoch 26/40
+950/950 [==============================] - 23s - loss: 1.7245 - acc: 0.2800 - val_loss: 1.6671 - val_acc: 0.4000
+Epoch 27/40
+950/950 [==============================] - 23s - loss: 1.6838 - acc: 0.3116 - val_loss: 1.7035 - val_acc: 0.3800
+Epoch 28/40
+950/950 [==============================] - 23s - loss: 1.6949 - acc: 0.3263 - val_loss: 1.6822 - val_acc: 0.3400
+Epoch 29/40
+950/950 [==============================] - 23s - loss: 1.7155 - acc: 0.2989 - val_loss: 1.6980 - val_acc: 0.2800
+Epoch 30/40
+950/950 [==============================] - 23s - loss: 1.7012 - acc: 0.3000 - val_loss: 1.6517 - val_acc: 0.4000
+Epoch 31/40
+950/950 [==============================] - 23s - loss: 1.6540 - acc: 0.3453 - val_loss: 1.6819 - val_acc: 0.3400
+Epoch 32/40
+950/950 [==============================] - 23s - loss: 1.6774 - acc: 0.3347 - val_loss: 1.6086 - val_acc: 0.5000
+Epoch 33/40
+950/950 [==============================] - 23s - loss: 1.6581 - acc: 0.3232 - val_loss: 1.6369 - val_acc: 0.3800
+Epoch 34/40
+950/950 [==============================] - 23s - loss: 1.6631 - acc: 0.3337 - val_loss: 1.6591 - val_acc: 0.4200
+Epoch 35/40
+950/950 [==============================] - 23s - loss: 1.6657 - acc: 0.3453 - val_loss: 1.6249 - val_acc: 0.4200
+Epoch 36/40
+950/950 [==============================] - 23s - loss: 1.6285 - acc: 0.3411 - val_loss: 1.6051 - val_acc: 0.4600
+Epoch 37/40
+950/950 [==============================] - 23s - loss: 1.6655 - acc: 0.3305 - val_loss: 1.5986 - val_acc: 0.4600
+Epoch 38/40
+950/950 [==============================] - 23s - loss: 1.6164 - acc: 0.3547 - val_loss: 1.6140 - val_acc: 0.4600
+Epoch 39/40
+950/950 [==============================] - 23s - loss: 1.6390 - acc: 0.3621 - val_loss: 1.5767 - val_acc: 0.4400
+Epoch 40/40
+950/950 [==============================] - 23s - loss: 1.6054 - acc: 0.3484 - val_loss: 1.5670 - val_acc: 0.4600
+Test loss / test accuracy = 1.7014 / 0.3190

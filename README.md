@@ -15,3 +15,5 @@ imdb_lstm: 在 IMDB 情感分类任务上训练一个 LSTM 模型
 
 lstm_text_generation：使用 LSTM 语言模型生成文本
 
+babi_rnn: 使用 RNN 训练 Facebook bAbI 数据集，完成问答任务，介绍了如何合并两个 RNN 的结果
+
