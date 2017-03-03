@@ -1,0 +1,36 @@
+Loading data...
+25000 train sequences
+25000 test sequences
+Average train sequence length: 238
+Average test sequence length: 230
+Adding 2-gram features
+Average train sequence length: 476
+Average test sequence length: 428
+Pad sequences (samples x time)
+X_train shape: (25000, 400)
+X_test shape: (25000, 400)
+Build model...
+____________________________________________________________________________________________________
+Layer (type)                     Output Shape          Param #     Connected to
+====================================================================================================
+embedding_1 (Embedding)          (None, 400, 50)       60261500    embedding_input_1[0][0]
+____________________________________________________________________________________________________
+globalaveragepooling1d_1 (Global (None, 50)            0           embedding_1[0][0]
+____________________________________________________________________________________________________
+dense_1 (Dense)                  (None, 1)             51          globalaveragepooling1d_1[0][0]
+====================================================================================================
+Total params: 60,261,551
+Trainable params: 60,261,551
+Non-trainable params: 0
+____________________________________________________________________________________________________
+Train on 25000 samples, validate on 25000 samples
+Epoch 1/5
+25000/25000 [==============================] - 63s - loss: 0.5812 - acc: 0.7871 - val_loss: 0.4320 - val_acc: 0.8593
+Epoch 2/5
+25000/25000 [==============================] - 58s - loss: 0.2776 - acc: 0.9307 - val_loss: 0.2992 - val_acc: 0.8936
+Epoch 3/5
+25000/25000 [==============================] - 58s - loss: 0.1370 - acc: 0.9718 - val_loss: 0.2603 - val_acc: 0.9016
+Epoch 4/5
+25000/25000 [==============================] - 58s - loss: 0.0738 - acc: 0.9886 - val_loss: 0.2428 - val_acc: 0.9040
+Epoch 5/5
+25000/25000 [==============================] - 58s - loss: 0.0415 - acc: 0.9951 - val_loss: 0.2351 - val_acc: 0.9066

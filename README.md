@@ -13,6 +13,8 @@ imdb_cnn：在 IMDB 数据集上使用 Convolution1D 进行文本情感分类
 
 imdb_lstm: 在 IMDB 情感分类任务上训练一个 LSTM 模型
 
+imdb_fasttext：使用 fasttext 进行文本分类
+
 imdb_cnn_lstm: 在 IMDB 情感分类任务上训练一个循环卷积神经网络。
 
 lstm_text_generation：使用 LSTM 语言模型生成文本
