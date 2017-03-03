@@ -129,7 +129,7 @@ model = Sequential()
 
 # we start off with an efficient embedding layer which maps
 # our vocab indices into embedding_dims dimensions
-# 先从一个高效的潜入曾开始，它将词汇表索引映射到 embedding_dim 维度的向量上
+# 先从一个高效的嵌入层开始，它将词汇表索引映射到 embedding_dim 维度的向量上
 model.add(Embedding(max_features,
                     embedding_dims,
                     input_length=maxlen))
